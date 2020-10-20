@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "/*": {
+      "X-Author": "Суркова, Елизавета Сергеевна", 
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
