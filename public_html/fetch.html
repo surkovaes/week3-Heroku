@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Неделя 3</title>
+  <meta charset="utf-8">
+   <script>
+     async function task() {
+       i = document.getElementById("inp").value;
+       const response = await fetch(i);
+       document.getElementById('inp').value = await response.text();
+     }
+  </script>
+ </head>
+ <body>
+  <input id="inp">
+  <button id="bt" onclick="task()">Нажми</button>
+ </body>
+</html>
